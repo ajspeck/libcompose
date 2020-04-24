@@ -3,8 +3,8 @@ package lookup
 import (
 	"strings"
 
+	"github.com/ajspeck/libcompose/config"
 	"github.com/docker/cli/opts"
-	"github.com/portainer/libcompose/config"
 )
 
 // EnvfileLookup is a structure that implements the project.EnvironmentLookup interface.

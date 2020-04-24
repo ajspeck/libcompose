@@ -1,9 +1,9 @@
 package service
 
 import (
-	"github.com/portainer/libcompose/config"
-	"github.com/portainer/libcompose/docker/ctx"
-	"github.com/portainer/libcompose/project"
+	"github.com/ajspeck/libcompose/config"
+	"github.com/ajspeck/libcompose/docker/ctx"
+	"github.com/ajspeck/libcompose/project"
 )
 
 // Factory is an implementation of project.ServiceFactory.

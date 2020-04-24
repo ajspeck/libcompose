@@ -7,15 +7,15 @@ import (
 
 	"golang.org/x/net/context"
 
+	"github.com/ajspeck/libcompose/config"
+	composecontainer "github.com/ajspeck/libcompose/docker/container"
+	"github.com/ajspeck/libcompose/labels"
+	"github.com/ajspeck/libcompose/project"
+	"github.com/ajspeck/libcompose/project/events"
+	util "github.com/ajspeck/libcompose/utils"
 	"github.com/docker/docker/api/types"
 	containertypes "github.com/docker/docker/api/types/container"
 	"github.com/docker/docker/api/types/network"
-	"github.com/portainer/libcompose/config"
-	composecontainer "github.com/portainer/libcompose/docker/container"
-	"github.com/portainer/libcompose/labels"
-	"github.com/portainer/libcompose/project"
-	"github.com/portainer/libcompose/project/events"
-	util "github.com/portainer/libcompose/utils"
 	"github.com/sirupsen/logrus"
 )
 

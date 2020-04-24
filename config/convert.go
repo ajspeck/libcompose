@@ -1,8 +1,8 @@
 package config
 
 import (
-	"github.com/portainer/libcompose/utils"
-	"github.com/portainer/libcompose/yaml"
+	"github.com/ajspeck/libcompose/utils"
+	"github.com/ajspeck/libcompose/yaml"
 )
 
 // ConvertServices converts a set of v1 service configs to v2 service configs

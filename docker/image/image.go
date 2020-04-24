@@ -7,13 +7,13 @@ import (
 	"io"
 	"os"
 
+	"github.com/ajspeck/libcompose/docker/auth"
 	"github.com/docker/distribution/reference"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/client"
 	"github.com/docker/docker/pkg/jsonmessage"
 	"github.com/docker/docker/pkg/term"
 	"github.com/docker/docker/registry"
-	"github.com/portainer/libcompose/docker/auth"
 	"github.com/sirupsen/logrus"
 	"golang.org/x/net/context"
 )

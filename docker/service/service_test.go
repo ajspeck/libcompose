@@ -3,7 +3,7 @@ package service
 import (
 	"testing"
 
-	"github.com/portainer/libcompose/config"
+	"github.com/ajspeck/libcompose/config"
 	"github.com/stretchr/testify/assert"
 )
 

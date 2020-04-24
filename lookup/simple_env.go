@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/portainer/libcompose/config"
+	"github.com/ajspeck/libcompose/config"
 )
 
 // OsEnvLookup is a "bare" structure that implements the project.EnvironmentLookup interface

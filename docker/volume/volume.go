@@ -3,12 +3,12 @@ package volume
 import (
 	"fmt"
 
+	"github.com/ajspeck/libcompose/config"
+	composeclient "github.com/ajspeck/libcompose/docker/client"
+	"github.com/ajspeck/libcompose/project"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/api/types/volume"
 	"github.com/docker/docker/client"
-	"github.com/portainer/libcompose/config"
-	composeclient "github.com/portainer/libcompose/docker/client"
-	"github.com/portainer/libcompose/project"
 	"golang.org/x/net/context"
 )
 

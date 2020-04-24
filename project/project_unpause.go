@@ -3,7 +3,7 @@ package project
 import (
 	"golang.org/x/net/context"
 
-	"github.com/portainer/libcompose/project/events"
+	"github.com/ajspeck/libcompose/project/events"
 )
 
 // Unpause pauses the specified services containers (like docker pause).

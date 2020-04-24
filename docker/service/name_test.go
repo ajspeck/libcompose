@@ -6,10 +6,10 @@ import (
 
 	"golang.org/x/net/context"
 
+	"github.com/ajspeck/libcompose/labels"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/client"
 	"github.com/pkg/errors"
-	"github.com/portainer/libcompose/labels"
 )
 
 func TestSingleNamer(t *testing.T) {

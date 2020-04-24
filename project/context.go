@@ -9,8 +9,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/portainer/libcompose/config"
-	"github.com/portainer/libcompose/logger"
+	"github.com/ajspeck/libcompose/config"
+	"github.com/ajspeck/libcompose/logger"
 	"github.com/sirupsen/logrus"
 )
 

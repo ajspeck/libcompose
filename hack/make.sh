@@ -2,7 +2,7 @@
 set -e
 
 export GO111MODULE=on
-export LIBCOMPOSE_PKG='github.com/portainer/libcompose'
+export LIBCOMPOSE_PKG='github.com/ajspeck/libcompose'
 
 # List of bundles to create when no argument is passed
 DEFAULT_BUNDLES=(

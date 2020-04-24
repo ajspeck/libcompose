@@ -1,9 +1,9 @@
 package app
 
 import (
-	"github.com/portainer/libcompose/cli/command"
-	"github.com/portainer/libcompose/docker/client"
-	"github.com/portainer/libcompose/docker/ctx"
+	"github.com/ajspeck/libcompose/cli/command"
+	"github.com/ajspeck/libcompose/docker/client"
+	"github.com/ajspeck/libcompose/docker/ctx"
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli"
 )

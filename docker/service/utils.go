@@ -1,8 +1,8 @@
 package service
 
 import (
+	"github.com/ajspeck/libcompose/project"
 	"github.com/docker/docker/api/types/container"
-	"github.com/portainer/libcompose/project"
 )
 
 // DefaultDependentServices return the dependent services (as an array of ServiceRelationship)

@@ -7,11 +7,11 @@ import (
 	"path/filepath"
 	"runtime"
 
+	"github.com/ajspeck/libcompose/version"
 	cliconfig "github.com/docker/cli/cli/config"
 	"github.com/docker/docker/client"
 	"github.com/docker/docker/pkg/homedir"
 	"github.com/docker/go-connections/tlsconfig"
-	"github.com/portainer/libcompose/version"
 )
 
 const (

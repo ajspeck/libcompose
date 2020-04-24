@@ -3,7 +3,7 @@ package lookup
 import (
 	"fmt"
 
-	"github.com/portainer/libcompose/config"
+	"github.com/ajspeck/libcompose/config"
 )
 
 // MapLookup is a structure that implements the project.EnvironmentLookup interface.

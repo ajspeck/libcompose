@@ -11,6 +11,10 @@ import (
 
 	"golang.org/x/net/context"
 
+	"github.com/ajspeck/libcompose/config"
+	"github.com/ajspeck/libcompose/labels"
+	"github.com/ajspeck/libcompose/logger"
+	"github.com/ajspeck/libcompose/project"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/api/types/container"
 	"github.com/docker/docker/api/types/network"
@@ -18,10 +22,6 @@ import (
 	"github.com/docker/docker/pkg/stdcopy"
 	"github.com/docker/docker/pkg/term"
 	"github.com/docker/go-connections/nat"
-	"github.com/portainer/libcompose/config"
-	"github.com/portainer/libcompose/labels"
-	"github.com/portainer/libcompose/logger"
-	"github.com/portainer/libcompose/project"
 	"github.com/sirupsen/logrus"
 )
 

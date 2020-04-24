@@ -4,10 +4,10 @@ import (
 	"os"
 	"path"
 
-	cliApp "github.com/portainer/libcompose/cli/app"
-	"github.com/portainer/libcompose/cli/command"
-	dockerApp "github.com/portainer/libcompose/cli/docker/app"
-	"github.com/portainer/libcompose/version"
+	cliApp "github.com/ajspeck/libcompose/cli/app"
+	"github.com/ajspeck/libcompose/cli/command"
+	dockerApp "github.com/ajspeck/libcompose/cli/docker/app"
+	"github.com/ajspeck/libcompose/version"
 	"github.com/urfave/cli"
 )
 
@@ -46,7 +46,7 @@ Options:
 	app.Usage = "Command line interface for libcompose."
 	app.Version = version.VERSION + " (" + version.GITCOMMIT + ")"
 	app.Author = "Docker Compose Contributors"
-	app.Email = "https://github.com/portainer/libcompose"
+	app.Email = "https://github.com/ajspeck/libcompose"
 	app.Before = cliApp.BeforeApp
 	app.Flags = append(command.CommonFlags(), dockerApp.DockerClientFlags()...)
 	app.Commands = []cli.Command{

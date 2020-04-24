@@ -3,9 +3,9 @@ package volume
 import (
 	"testing"
 
+	"github.com/ajspeck/libcompose/config"
 	"github.com/docker/docker/api/types/volume"
 	"github.com/docker/docker/client"
-	"github.com/portainer/libcompose/config"
 )
 
 func TestVolumesFromServices(t *testing.T) {

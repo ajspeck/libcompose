@@ -10,12 +10,12 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/portainer/libcompose/config"
-	"github.com/portainer/libcompose/logger"
-	"github.com/portainer/libcompose/lookup"
-	"github.com/portainer/libcompose/project/events"
-	"github.com/portainer/libcompose/utils"
-	"github.com/portainer/libcompose/yaml"
+	"github.com/ajspeck/libcompose/config"
+	"github.com/ajspeck/libcompose/logger"
+	"github.com/ajspeck/libcompose/lookup"
+	"github.com/ajspeck/libcompose/project/events"
+	"github.com/ajspeck/libcompose/utils"
+	"github.com/ajspeck/libcompose/yaml"
 	log "github.com/sirupsen/logrus"
 )
 

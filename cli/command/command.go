@@ -4,8 +4,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/portainer/libcompose/cli/app"
-	"github.com/portainer/libcompose/project"
+	"github.com/ajspeck/libcompose/cli/app"
+	"github.com/ajspeck/libcompose/project"
 	"github.com/urfave/cli"
 )
 

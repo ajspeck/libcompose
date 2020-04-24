@@ -1,8 +1,8 @@
 package client
 
 import (
+	"github.com/ajspeck/libcompose/project"
 	"github.com/docker/docker/client"
-	"github.com/portainer/libcompose/project"
 )
 
 // Factory is a factory to create docker clients.

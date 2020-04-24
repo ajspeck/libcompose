@@ -5,9 +5,9 @@ import (
 	"os/exec"
 	"strings"
 
+	"github.com/ajspeck/libcompose/utils"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/go-connections/nat"
-	"github.com/portainer/libcompose/utils"
 	"golang.org/x/net/context"
 	. "gopkg.in/check.v1"
 )

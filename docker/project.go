@@ -3,17 +3,17 @@ package docker
 import (
 	"golang.org/x/net/context"
 
+	"github.com/ajspeck/libcompose/config"
+	"github.com/ajspeck/libcompose/docker/auth"
+	"github.com/ajspeck/libcompose/docker/client"
+	"github.com/ajspeck/libcompose/docker/ctx"
+	"github.com/ajspeck/libcompose/docker/network"
+	"github.com/ajspeck/libcompose/docker/service"
+	"github.com/ajspeck/libcompose/docker/volume"
+	"github.com/ajspeck/libcompose/labels"
+	"github.com/ajspeck/libcompose/project"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/api/types/filters"
-	"github.com/portainer/libcompose/config"
-	"github.com/portainer/libcompose/docker/auth"
-	"github.com/portainer/libcompose/docker/client"
-	"github.com/portainer/libcompose/docker/ctx"
-	"github.com/portainer/libcompose/docker/network"
-	"github.com/portainer/libcompose/docker/service"
-	"github.com/portainer/libcompose/docker/volume"
-	"github.com/portainer/libcompose/labels"
-	"github.com/portainer/libcompose/project"
 	"github.com/sirupsen/logrus"
 )
 

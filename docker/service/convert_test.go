@@ -5,11 +5,11 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/ajspeck/libcompose/config"
+	"github.com/ajspeck/libcompose/docker/ctx"
+	"github.com/ajspeck/libcompose/lookup"
+	"github.com/ajspeck/libcompose/yaml"
 	"github.com/docker/docker/api/types/container"
-	"github.com/portainer/libcompose/config"
-	"github.com/portainer/libcompose/docker/ctx"
-	"github.com/portainer/libcompose/lookup"
-	"github.com/portainer/libcompose/yaml"
 	shlex "github.com/flynn/go-shlex"
 	"github.com/stretchr/testify/assert"
 )

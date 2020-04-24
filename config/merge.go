@@ -10,9 +10,9 @@ import (
 
 	"reflect"
 
+	"github.com/ajspeck/libcompose/utils"
+	composeYaml "github.com/ajspeck/libcompose/yaml"
 	"github.com/docker/docker/pkg/urlutil"
-	"github.com/portainer/libcompose/utils"
-	composeYaml "github.com/portainer/libcompose/yaml"
 	"gopkg.in/yaml.v2"
 )
 

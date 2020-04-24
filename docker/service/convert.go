@@ -4,17 +4,17 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/ajspeck/libcompose/config"
+	composeclient "github.com/ajspeck/libcompose/docker/client"
+	composecontainer "github.com/ajspeck/libcompose/docker/container"
+	"github.com/ajspeck/libcompose/project"
+	"github.com/ajspeck/libcompose/utils"
 	"github.com/docker/cli/opts"
 	"github.com/docker/docker/api/types/container"
 	"github.com/docker/docker/api/types/network"
 	"github.com/docker/docker/api/types/strslice"
 	"github.com/docker/go-connections/nat"
 	"github.com/docker/go-units"
-	"github.com/portainer/libcompose/config"
-	composeclient "github.com/portainer/libcompose/docker/client"
-	composecontainer "github.com/portainer/libcompose/docker/container"
-	"github.com/portainer/libcompose/project"
-	"github.com/portainer/libcompose/utils"
 	"golang.org/x/net/context"
 )
 

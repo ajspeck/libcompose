@@ -3,7 +3,7 @@ package project
 import (
 	"golang.org/x/net/context"
 
-	"github.com/portainer/libcompose/config"
+	"github.com/ajspeck/libcompose/config"
 )
 
 // Networks defines the methods a libcompose network aggregate should define.

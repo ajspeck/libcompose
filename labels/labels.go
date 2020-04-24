@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/portainer/libcompose/utils"
+	"github.com/ajspeck/libcompose/utils"
 )
 
 // Label represents a docker label.

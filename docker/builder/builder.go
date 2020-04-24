@@ -8,6 +8,7 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/ajspeck/libcompose/logger"
 	"github.com/docker/cli/cli/command/image/build"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/builder/dockerignore"
@@ -18,7 +19,6 @@ import (
 	"github.com/docker/docker/pkg/progress"
 	"github.com/docker/docker/pkg/streamformatter"
 	"github.com/docker/docker/pkg/term"
-	"github.com/portainer/libcompose/logger"
 	"github.com/sirupsen/logrus"
 	"golang.org/x/net/context"
 )

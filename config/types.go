@@ -3,7 +3,7 @@ package config
 import (
 	"sync"
 
-	"github.com/portainer/libcompose/yaml"
+	"github.com/ajspeck/libcompose/yaml"
 )
 
 // EnvironmentLookup defines methods to provides environment variable loading.

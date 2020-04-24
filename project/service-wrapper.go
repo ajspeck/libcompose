@@ -3,7 +3,7 @@ package project
 import (
 	"sync"
 
-	"github.com/portainer/libcompose/project/events"
+	"github.com/ajspeck/libcompose/project/events"
 	log "github.com/sirupsen/logrus"
 )
 

@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/portainer/libcompose/yaml"
+	"github.com/ajspeck/libcompose/yaml"
 )
 
 func TestBuild(t *testing.T) {
